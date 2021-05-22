@@ -18,7 +18,7 @@ class MyRadioList {
 
   Map<String, dynamic> toMap() {
     return {
-      'radios': radios?.map((x) => x.toMap())?.toList(),
+      'radios': radios.map((x) => x.toMap()).toList(),
     };
   }
 
